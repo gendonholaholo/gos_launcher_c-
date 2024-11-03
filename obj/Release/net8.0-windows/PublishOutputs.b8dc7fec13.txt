@@ -1,0 +1,5 @@
+E:\Developer\Program\C#\gosLauncher\publish\gosLauncher.exe
+E:\Developer\Program\C#\gosLauncher\publish\gosLauncher.dll
+E:\Developer\Program\C#\gosLauncher\publish\gosLauncher.deps.json
+E:\Developer\Program\C#\gosLauncher\publish\gosLauncher.runtimeconfig.json
+E:\Developer\Program\C#\gosLauncher\publish\gosLauncher.pdb

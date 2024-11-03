@@ -1,0 +1,14 @@
+E:\Developer\Program\C#\gosLauncher\bin\Debug\net8.0-windows\gosLauncher.exe
+E:\Developer\Program\C#\gosLauncher\bin\Debug\net8.0-windows\gosLauncher.deps.json
+E:\Developer\Program\C#\gosLauncher\bin\Debug\net8.0-windows\gosLauncher.runtimeconfig.json
+E:\Developer\Program\C#\gosLauncher\bin\Debug\net8.0-windows\gosLauncher.dll
+E:\Developer\Program\C#\gosLauncher\bin\Debug\net8.0-windows\gosLauncher.pdb
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.GeneratedMSBuildEditorConfig.editorconfig
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.AssemblyInfoInputs.cache
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.AssemblyInfo.cs
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.csproj.CoreCompileInputs.cache
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.dll
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\refint\gosLauncher.dll
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.pdb
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\gosLauncher.genruntimeconfig.cache
+E:\Developer\Program\C#\gosLauncher\obj\Debug\net8.0-windows\ref\gosLauncher.dll
