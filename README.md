@@ -1,6 +1,6 @@
 # gosLauncher
 
-gosLauncher adalah aplikasi Windows yang memungkinkan pengguna untuk menjalankan aplikasi lain
+Memungkinkan pengguna untuk menjalankan aplikasi lain
 dengan menggunakan input teks. Aplikasi ini dirancang dengan tampilan minimalis dan
 menyediakan fitur hotkey untuk memudahkan akses.
 
