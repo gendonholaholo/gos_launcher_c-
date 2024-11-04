@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gosLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe09cb345e04d9377cca7d78a181ecb63dad9e59")]
 [assembly: System.Reflection.AssemblyProductAttribute("gosLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gosLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

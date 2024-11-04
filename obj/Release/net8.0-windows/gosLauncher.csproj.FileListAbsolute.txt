@@ -12,3 +12,4 @@ E:\Developer\Program\C#\gosLauncher\obj\Release\net8.0-windows\refint\gosLaunche
 E:\Developer\Program\C#\gosLauncher\obj\Release\net8.0-windows\gosLauncher.pdb
 E:\Developer\Program\C#\gosLauncher\obj\Release\net8.0-windows\gosLauncher.genruntimeconfig.cache
 E:\Developer\Program\C#\gosLauncher\obj\Release\net8.0-windows\ref\gosLauncher.dll
+E:\Developer\Program\C#\gosLauncher\obj\Release\net8.0-windows\gosLauncher.sourcelink.json
