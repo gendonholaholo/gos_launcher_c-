@@ -1,5 +1,7 @@
 using System;
 using System.Media;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -21,6 +23,24 @@ namespace gosLauncher
             InitializeComponent();
             RegisterHotKey(this.Handle, HOTKEY_ID, 0x0002, (uint)Keys.Space);
         }
+        
+        //------------------------------------------------------------------------
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            GraphicsPath path = new GraphicsPath();
+            int radius = 20; // Radius untuk sudut rounded
+
+            // Menentukan sudut rounded
+            path.AddArc(0, 0, radius, radius, 180, 90); // Kiri Atas
+            path.AddArc(this.Width - radius, 0, radius, radius, 270, 90); // Kanan Atas
+            path.AddArc(this.Width - radius, this.Height - radius, radius, radius, 0, 90); // Kanan Bawah
+            path.AddArc(0, this.Height - radius, radius, radius, 90, 90); // Kiri Bawah
+            path.CloseFigure();
+
+            this.Region = new Region(path);
+            base.OnPaint(e);
+        }
+        //------------------------------------------------------------------------
 
         protected override void WndProc(ref Message m)
         {
@@ -77,7 +97,7 @@ namespace gosLauncher
             {
                 using (
                     SoundPlayer player = new SoundPlayer(
-                        @"E:\Developer\Program\C#\gosLauncher\bye.wav"
+                        @"E:\Developer\Program\C#\gosLauncher\Sounds\bye.wav"
                     )
                 )
                 {
@@ -105,7 +125,7 @@ namespace gosLauncher
                     System.Diagnostics.Process.Start(processInfo);
                     using (
                         SoundPlayer player = new SoundPlayer(
-                            @"E:\Developer\Program\C#\gosLauncher\oke.wav"
+                            @"E:\Developer\Program\C#\gosLauncher\Sounds\oke.wav"
                         )
                     )
                     {
