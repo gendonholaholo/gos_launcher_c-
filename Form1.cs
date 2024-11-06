@@ -1,9 +1,6 @@
-using System;
 using System.Media;
-using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
 
 namespace gosLauncher
 {
@@ -23,7 +20,7 @@ namespace gosLauncher
             InitializeComponent();
             RegisterHotKey(this.Handle, HOTKEY_ID, 0x0002, (uint)Keys.Space);
         }
-        
+
         //------------------------------------------------------------------------
         protected override void OnPaint(PaintEventArgs e)
         {
